@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down Menu Example</title>
+</head>
+<body>
+    <h1>Select an Option</h1>
+    <select id="dropdown" onchange="navigate()">
+        <option value="" disabled selected>Select an option</option>
+        <option value="https://www.google.com">Google</option>
+        <option value="https://www.yahoo.com">Yahoo</option>
+        <option value="map">Google Map of Current Location</option>
+    </select>
+    
+
+    <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
